@@ -1,1 +1,19 @@
-scikit-learn
+# Pin PyTorch to a version compatible with CUDA 12.1
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+
+# Core MASt3R and DUSt3R dependencies
+numpy
+einops
+pytorch-lightning
+Pillow
+pyheif
+cython
+
+# Other dependencies from the original repository
+gradio
+opencv-python
+scikit-image
+matplotlib
